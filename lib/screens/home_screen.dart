@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:peliculas/providers/movies_provider.dart';
 import 'package:peliculas/search/search_delegate.dart';
 import 'package:provider/provider.dart';
-
 import '../models/models.dart';
 import '../widgets/widgets.dart';
 
@@ -19,7 +18,7 @@ class HomeScreen extends StatelessWidget {
     print(moviesProvider.onDisplayMovies);
     return Scaffold(
       appBar: AppBar(
-        title:const Text('Peliculas recomendadas'),
+        title:const Text('Películas recomendadas'),
         //la sombra que tare en la parte de arriba
         elevation: 5,
         actions: [
