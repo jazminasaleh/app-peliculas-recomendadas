@@ -106,8 +106,7 @@ class _MoviePoster extends StatelessWidget {
                 tag: movi.heroId!,
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(20),
-                  child: FadeInImage(
-                    placeholder: AssetImage('assets/loading.gif'),
+                  child:Image(
                     image: NetworkImage(movi.fullPosterImg),
                     width: 130,
                     height: 190,

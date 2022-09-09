@@ -38,8 +38,7 @@ class CardSwiper extends StatelessWidget {
               tag: movie.heroId!,
               child: ClipRRect(
                 borderRadius: BorderRadius.circular(20),
-                child: FadeInImage(
-                    placeholder: AssetImage('assets/loading.gif'),
+                child: Image(
                     image: NetworkImage(movie.fullPosterImg),
                     //adpatar la imagen al tamño que tiene el contendor padre
                     fit: BoxFit.cover),

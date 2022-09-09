@@ -9,7 +9,9 @@ import 'package:peliculas/models/search_movies_response.dart';
 
 //esta clase se hace para obtener la infromacion de las peliculas, las peliculas populares, actores pelculcas clasificadas ....
 //la pagina donde se vana consumir https://www.themoviedb.org/
-//ChangeNotifier es una clase simple incluida en el SDK de flutter que proporciona notificaciones de cambio a sus oyentes
+//ChangeNotifier es una clase simple incluida en el SDK de flutter que proporciona notificaciones de cambio a sus oyente
+// TODO borrar https://api.themoviedb.org/3/movie/550?api_key=caf74066cb62c8e8a8b564fceb62459a
+
 class MoviesProvider extends ChangeNotifier {
   //clave
   String _apiKey = 'caf74066cb62c8e8a8b564fceb62459a';

@@ -46,7 +46,7 @@ class HomeScreen extends StatelessWidget {
             //slider de peliculas clasificadas
             MoviesSlider(
               movies: moviesProvider.ratedMovies, 
-              title: 'Calsificado',
+              title: 'Clasificados',
               onNextPage: () =>{
                 moviesProvider.getRatedMovies()
               },),
